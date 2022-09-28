@@ -94,4 +94,4 @@ bot.on('interactionCreate', interaction => {
     }
 });
 
-bot.login('MTAyMzU0NjY5NDM4MzcwNjE2Mg.G2DyGI.beU-CYfGCqHqjJ1Y9cxjGvg3RJoumXfZ5yD_1c')
+bot.login(process.env.TOKEN)
